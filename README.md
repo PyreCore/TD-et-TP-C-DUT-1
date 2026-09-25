@@ -8,6 +8,7 @@ Exercices de **programmation en C++** réalisés en TD/TP dans le cadre du **DUT
 | --- | --- |
 | `main1.cpp` → `main7.cpp` | 7 programmes autonomes (avec binaires pré-compilés `main1`…`main7`) |
 | `CNH/` | Version structurée des exercices CNH, un programme par module |
+| `TD_Program_C++/exo1.cpp` → `exo4.cpp` | Exercices de calcul et de logique en C++ (déplacés depuis le dépôt `TD`) |
 
 ## Les exercices (`CNH/`)
 
@@ -43,6 +44,18 @@ g++ CNH/calcul_tarif.cpp -o CNH/calcul_tarif
 ```
 
 Chaque source possède son binaire pré-compilé (`main1`, `CNH/calcul_tarif`, …) prêt à exécuter.
+
+## Exercices complémentaires (`TD_Program_C++`)
+
+Quatre exercices progressifs de calcul et de logique en C++ (gestion de prix, remises, montants…), déplacés depuis le dépôt `TD`.
+
+```bash
+# Compiler et exécuter un exercice, par exemple exo1
+g++ TD_Program_C++/exo1.cpp -o TD_Program_C++/exo1
+./TD_Program_C++/exo1
+```
+
+Chaque fichier `.cpp` possède son binaire pré-compilé associé (`exo1`, `exo2`, …).
 
 ## Prérequis
 
